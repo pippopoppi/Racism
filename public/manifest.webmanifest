@@ -1,0 +1,1 @@
+{"id": "./", "name": "Slotcars Simulator", "short_name": "Slotcars", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#0c1320", "theme_color": "#0c1320", "description": "Realistic multiplayer tabletop slot racing simulator", "icons": [{"src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]}
