@@ -12,6 +12,9 @@
 <body>
   <div id="app"></div>
   <script type="module" src="/src/main.ts"></script>
+<script>
+(function(){function go(){var f=document.querySelector('.footer');if(!f||!window.fetch)return;var n=document.createElement('span');n.id='visits';n.hidden=true;f.insertBefore(n,f.lastElementChild);fetch('https://pippopoppi.goatcounter.com/counter/'+location.pathname+'.json').then(function(r){return r.ok?r.json():null;}).then(function(d){var c=d&&String(d.count||'');if(!c||c==='0')return;n.textContent=c==='1'?'GIOCATO 1 VOLTA':'GIOCATO '+c+' VOLTE';n.hidden=false;}).catch(function(){});}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();})();
+</script>
 <!-- Visitor count (GoatCounter: no cookies, no personal data) -->
 <script data-goatcounter="https://pippopoppi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
